@@ -42,8 +42,6 @@ h5 {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 156px;
-  margin-right: 156px;
   margin: 0 auto;
 }
 .visually-hidden {
@@ -59,7 +57,7 @@ h5 {
   overflow: hidden;
 }
 img {
-  display: block
+  display: block;
 }
 
 /* Логотип */
@@ -69,13 +67,10 @@ img {
   color: var(--navyblue);
 }
 
-
 .list {
   list-style: none;
 }
 .header {
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
   border-bottom: 1px solid var(--cornflower);
 }
 
@@ -95,21 +90,13 @@ img {
 
 /* Менюшка */
 
-.header-container {
-  display: flex;
-  align-items: center;
-  gap: 332px;
-}
-
 .header-navigation {
   display: flex;
   flex-grow: 1;
-  justify-content: space-between;
   align-items: center;
 }
 .header-menu {
   display: flex;
-  align-items: flex-start;
   gap: 40px;
 }
 .header-menu-link {
@@ -119,6 +106,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 
 .header-menu-link:hover,
@@ -132,7 +120,6 @@ img {
 .header-contacts-list {
   display: flex;
   gap: 40px;
-  margin-left: auto;
 }
 .header-contacts-link {
   color: var(--slate);
@@ -141,6 +128,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 
 .header-contacts-link:hover,
@@ -194,7 +182,6 @@ img {
 .button-container {
   display: block;
   padding: 16px 32px;
-  gap: 10px;
   margin: 0 auto;
   margin-top: 48px;
 }
@@ -209,13 +196,10 @@ img {
 }
 
 .advantages-description {
- 
   flex-basis: calc((100% - 72px) / 4);
-
 }
 
 .advantages-container {
-  display: flex;
 }
 .advantages-list {
   display: flex;
@@ -245,8 +229,6 @@ img {
 .business-list {
   display: flex;
   gap: 24px;
-  padding-top: 72px;
-  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 .title-two {
   color: var(--navyblue);
@@ -260,22 +242,19 @@ img {
 }
 
 .work-samples {
- flex-basis: calc((100% - 3 * 16px) / 3);
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
 /* Четверта частина */
 .team {
   background-color: #f4f4fd;
 }
 
-.team-section{
+.team-section {
   padding: 120px 0;
 }
 .team-list {
-  padding-top: 72px;
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 72px) / 4);
-  
 }
 .team-list-item {
   background-color: #ffffff;
@@ -285,9 +264,8 @@ img {
 .name-position {
   padding: 32px 16px;
   text-align: center;
-  margin-bottom: 8px;
 }
-.position{
+.position {
   color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
@@ -325,18 +303,15 @@ img {
 }
 
 .footer-container {
-  
 }
 
 /* Портфолио */
 .section {
-  padding-top: 96px; 
-  padding-bottom: 120px; 
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .buttons-container {
-  padding-top: 96px;
-  padding-bottom: 72px;
 }
 
 .buttons-list {
@@ -373,26 +348,21 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px
-
+  margin-bottom: 8px;
 }
 .name-description {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-
 }
 
 .work-examples-list {
   display: flex;
-  gap: 32px;
   flex-wrap: wrap;
-  column-gap: 24px; 
-  row-gap: 48px; 
-  border-top: none;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-example {
   width: calc((100% - 48px) / 3);
-  border: 1px solid #e7e9fc;
 }
