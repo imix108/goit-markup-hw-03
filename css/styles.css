@@ -43,6 +43,7 @@ h5 {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  
 }
 .visually-hidden {
   position: absolute;
@@ -89,6 +90,9 @@ img {
 }
 
 /* Менюшка */
+.header-container {
+  display: flex;
+}
 
 .header-navigation {
   display: flex;
